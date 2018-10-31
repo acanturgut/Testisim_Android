@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "597763216732",
+    "firebase_url": "https://testisim-4e730.firebaseio.com",
+    "project_id": "testisim-4e730",
+    "storage_bucket": "testisim-4e730.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597763216732:android:6caff7e079c3007a",
+        "android_client_info": {
+          "package_name": "android.testisim.com.testisim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597763216732-gruhfp13qiqr16qtp4lr3pglucd1ndce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIbbZL77B1CPmwOBAOVNM1-D-Yek4VGPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

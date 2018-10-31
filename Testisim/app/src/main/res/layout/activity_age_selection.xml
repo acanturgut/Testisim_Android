@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".activities.splash.AgeSelectionActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cool_background" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo_ufak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="8.6sp"
+            android:textColor="#ffffff"
+            android:textSize="17.3sp"
+            android:text="Merhaba,
+Bu uygulama testis kanseri hakkında sizi kısaca bilgilendirmek için yapıldı. Hemen başlayalım…" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="2.9sp"
+                android:textColor="#4e72d4"
+                android:textSize="23sp"
+                android:text="Yaşınız hangi aralıkta?" />
+
+            <TextView
+                android:id="@+id/fifteenButton"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corner_radius_button"
+                android:gravity="center"
+                android:textColor="#9b9b9b"
+                android:textSize="16.3sp"
+                android:text="15-25 YAŞ ARASI" />
+
+            <TextView
+                android:id="@+id/twentyFiveButton"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/corner_radius_button"
+                android:textColor="#9b9b9b"
+                android:textSize="16.3sp"
+                android:text="25- 35 YAŞ ARASI" />
+
+            <TextView
+                android:id="@+id/thirtyFiveButton"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="240dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@drawable/corner_radius_button"
+                android:textColor="#9b9b9b"
+                android:textSize="16.3sp"
+                android:text="35 YAŞ ÜSTÜ" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

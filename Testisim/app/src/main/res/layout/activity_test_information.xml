@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activities.test.TestInformationActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/testInformationBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/back" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo_header" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/testInformationCloseViceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/voice" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textColor="#b06ed7"
+        android:layout_marginBottom="16dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="Teste başla" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#4a4a4a"
+        android:textSize="15.4sp"
+        android:text="Korkacak birşey yok. Testis Kanseri olma ihtimaliniz düşük. Ancak ayda bir defa, birkaç dakika içinde kontrol etmek belki de size hayat verecek." />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/basla" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="#529cd0"
+        android:textSize="15.4sp"
+        android:text="Testislerin üzerindeki deri daha da yumuşayacağı ve gevşeyeceği için muayeneyi banyo ya da duş sonrası yapın." />
+
+    <TextView
+        android:id="@+id/testInformationStartButton"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="120dp"
+        android:background="@drawable/corner_radius_gradient_button"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="16.3sp"
+        android:textColor="@color/white"
+        android:text="BAŞLA &gt;" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+package android.testisim.com.testisim.activities.test
+
+import android.content.Intent
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity;
+import android.testisim.com.testisim.R
+import kotlinx.android.synthetic.main.activity_test_information.*
+
+class TestInformationActivity : AppCompatActivity() {
+
+    private var fromHandFreeMode = false
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_test_information)
+
+        if (fromHandFreeMode) {
+            startSpeaking()
+        }
+
+        testInformationBackButton.setOnClickListener {
+            onBackPressed()
+        }
+
+        testInformationStartButton.setOnClickListener {
+            startFirstTestActivity()
+        }
+
+        testInformationCloseViceButton.setOnClickListener {
+            stopSpeaking()
+        }
+    }
+
+    private fun startFirstTestActivity() {
+        val intent = Intent(this, TestFirstStepActivity::class.java)
+        startActivity(intent)
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left)
+    }
+
+    private fun stopSpeaking() {
+
+    }
+
+    private fun startSpeaking() {
+
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right)
+        finish()
+    }
+}
