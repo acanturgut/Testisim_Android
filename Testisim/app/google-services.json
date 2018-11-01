@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:597763216732:android:6caff7e079c3007a",
         "android_client_info": {
-          "package_name": "android.testisim.com.testisim"
+          "package_name": "com.testisim"
         }
       },
       "oauth_client": [

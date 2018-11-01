@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".activities.splash.SplashActivity"
+            android:name="com.testisim.activities.splash.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
@@ -24,58 +24,58 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.testisim.activities.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.splash.AgeSelectionActivity"
+            android:name="com.testisim.activities.splash.AgeSelectionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.splash.AgeInformativeActivity"
+            android:name="com.testisim.activities.splash.AgeInformativeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.splash.CelebrityActivity"
+            android:name="com.testisim.activities.splash.CelebrityActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.dictionary.DictionaryActivity"
+            android:name="com.testisim.activities.dictionary.DictionaryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.settings.SettingsActivity"
+            android:name="com.testisim.activities.settings.SettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.test.TestInformationActivity"
+            android:name="com.testisim.activities.test.TestInformationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.test.TestFirstStepActivity"
+            android:name="com.testisim.activities.test.TestFirstStepActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.test.TestSecondStepActivity"
+            android:name="com.testisim.activities.test.TestSecondStepActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.test.TestThirdStepActivity"
+            android:name="com.testisim.activities.test.TestThirdStepActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.logs.TestLogsActivity"
+            android:name="com.testisim.activities.logs.TestLogsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.VideoActivity"
+            android:name="com.testisim.activities.VideoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.test.TestDecisionActivity"
+            android:name="com.testisim.activities.test.TestDecisionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.SymptomActivity"
+            android:name="com.testisim.activities.SymptomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.test.TestResultActivity"
+            android:name="com.testisim.activities.test.TestResultActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.ThreeDObjectActivity"
+            android:name="com.testisim.activities.ThreeDObjectActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.settings.TermsActivity"
+            android:name="com.testisim.activities.settings.TermsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.settings.CreditsActivity"
+            android:name="com.testisim.activities.settings.CreditsActivity"
             android:screenOrientation="portrait" />
     </application>
 
