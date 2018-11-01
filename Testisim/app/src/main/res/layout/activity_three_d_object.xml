@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:background="@color/white"
     tools:context=".activities.ThreeDObjectActivity">
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -28,6 +29,13 @@
             android:text="3D GÖRSEL"
             android:textColor="#9b9b9b"
             android:textSize="15.4sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_unity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     </FrameLayout>
 

@@ -5,21 +5,31 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+
     compileSdkVersion 28
+
     defaultConfig {
         applicationId "android.testisim.com.testisim"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86'
+        }
     }
+
+    aaptOptions {
+        noCompress '.unity3d', '.ress', '.resource', '.obb'
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -47,3 +57,44 @@ dependencies {
 }
 
 apply plugin: 'com.google.gms.google-services'
+
+task unity() {
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'rm', '-R', 'libs'
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'mkdir', 'libs'
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'rm', '-R', 'src/main/assets'
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'mkdir', 'src/main/assets'
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'rm', '-R', 'src/main/jniLibs'
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'mkdir', 'src/main/jniLibs'
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'cp', '-R', '/Users/emeroglu/Documents/SourceTree/Testisim/Unity/Export/Unity/libs', ''
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'cp', '-R', '/Users/emeroglu/Documents/SourceTree/Testisim/Unity/Export/Unity/src/main/assets', 'src/main'
+    }
+    exec {
+        workingDir '/Users/emeroglu/Documents/SourceTree/Testisim/Testisim/app'
+        commandLine 'cp', '-R', '/Users/emeroglu/Documents/SourceTree/Testisim/Unity/Export/Unity/src/main/jniLibs', 'src/main'
+    }
+}
+
+preBuild.dependsOn unity
