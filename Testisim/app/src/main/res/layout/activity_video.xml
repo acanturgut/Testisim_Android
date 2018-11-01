@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="BELİRTİLER"
+            android:text="VİDEO"
             android:textColor="#9b9b9b"
             android:textSize="15.4sp" />
 

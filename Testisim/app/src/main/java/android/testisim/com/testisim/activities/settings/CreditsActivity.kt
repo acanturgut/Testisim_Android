@@ -1,17 +1,17 @@
-package android.testisim.com.testisim.activities
+package android.testisim.com.testisim.activities.settings
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.testisim.com.testisim.R
-import kotlinx.android.synthetic.main.activity_settings.*
+import kotlinx.android.synthetic.main.activity_credits.*
 
-class SettingsActivity : AppCompatActivity() {
+class CreditsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_credits)
 
-        settingsGoBackButton.setOnClickListener {
+        creditsGoBackButton.setOnClickListener {
             onBackPressed()
         }
     }

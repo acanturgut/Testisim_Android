@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.support.v7.app.AlertDialog
 import android.testisim.com.testisim.activities.dictionary.DictionaryActivity
 import android.testisim.com.testisim.activities.logs.TestLogsActivity
+import android.testisim.com.testisim.activities.settings.SettingsActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -63,8 +64,9 @@ class MainActivity : AppCompatActivity() {
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left)
     }
 
-    private fun startTestActivity() {
+    private fun startTestActivity(isVoiceControlActivated: Boolean = false) {
         val intent = Intent(this, TestInformationActivity::class.java)
+        intent.putExtra(IS_COMES_FROM_VOICE_KEY, isVoiceControlActivated)
         startActivity(intent)
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left)
     }
@@ -88,15 +90,15 @@ class MainActivity : AppCompatActivity() {
         builder1.setCancelable(true)
         builder1.setPositiveButton(
                 "Testi Başlat"
-        ) {
-            dialog, id -> dialog.cancel()
+        ) { dialog, _ ->
+            dialog.cancel()
 
-            startTestActivity()
+            startTestActivity(true)
         }
 
         builder1.setNegativeButton(
                 "İptal"
-        ) { dialog, id -> dialog.cancel() }
+        ) { dialog, _ -> dialog.cancel() }
 
         val alert11 = builder1.create()
         alert11.show()
@@ -121,6 +123,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-       // super.onBackPressed()
+        // super.onBackPressed()
+    }
+
+    companion object {
+        const val IS_COMES_FROM_VOICE_KEY = "isComesFromVoiceKey"
     }
 }

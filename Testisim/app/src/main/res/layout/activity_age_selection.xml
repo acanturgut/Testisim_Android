@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="270dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/cool_background" />
+            app:srcCompat="@drawable/cool_background_ender_ender" />
 
         <android.support.v7.widget.AppCompatImageView
             android:layout_width="wrap_content"

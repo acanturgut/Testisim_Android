@@ -4,7 +4,7 @@
     package="android.testisim.com.testisim">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -16,8 +16,8 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".activities.splash.SplashActivity"
-            android:theme="@style/Theme.Design.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +40,7 @@
             android:name=".activities.dictionary.DictionaryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name=".activities.settings.SettingsActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.test.TestInformationActivity"
@@ -72,6 +72,10 @@
         <activity
             android:name=".activities.ThreeDObjectActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.settings.TermsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.settings.CreditsActivity"></activity>
     </application>
 
 </manifest>

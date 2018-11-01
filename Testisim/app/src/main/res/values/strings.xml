@@ -1,4 +1,57 @@
 <resources>
     <string name="app_name">Testisim</string>
     <string name="title_activity_test_information">TestInformationActivity</string>
+
+    <string name="credits">\nTestisim mobil uygulaması testis kanseri hakkında farkındalığın arttırılması ve kendi kendi testis muayenesinin öğretilmesi amacıyla, Koç Üniversitesi Hemşirelik ve Bilgisayar Mühendisliği bölümlerinin işbirliği ile geliştirilmiştir. Bu uygulamanın geliştirilmesi ve test edilmesi TÜBİTAK tarafından “3001 Başlangıç Ar-Ge Projeleri Destekleme Programı” kapsamında desteklenmektedir.
+        \n\n\n>Emeği Geçenler:
+\n\nDr. Öğr. Üyesi Prof. Kader Tekkaş Kerman (Yürütücü)
+\n\nProf. Dr. Ayşe Beşer (Araştırmacı)
+\n\nDoç. Dr. Öznur Özkasap (Araştırmacı)
+\n\nDr. Seyhan Uçar (Araştırmacı)
+\n\nAhmet Can Turgut (Mobil Uygulama Geliştiricisi/yazılımcısı)
+\n\nSelçuk Albayrak (Mobil Uygulama Geliştiricisi/yazılımcısı)
+\n\nProf. Dr. Tarık Esen (Danışman)​</string>
+
+    <string name="terms">\n\nTARAFLAR
+\nMADDE 1.
+\n1.1.
+\nUnvan   : KOÇ ÜNİVERSİTESİ (bundan böyle “KU” olarak anılacaktır.)
+\nVergi No  : 9240033265
+\nAdres   : Rumelifeneri Yolu 34450 Sarıyer/İSTANBUL
+\nTelefon  : 0212-338-1000
+\nElektronik Posta : information@ku.edu.tr
+\nİnternet Sitesi  : http://www.ku.edu.tr/
+\n1.2 [Kullanıcı bilgileri, Kullanıcı Bilgi Formunda yer almaktadır.]
+\n1.3 KU ile Kullanıcı bundan böyle beraber kullanıldıklarında “Taraflar”, ayrı ayrı kullanıldıklarında “Taraf” olarak anılacaktırlar.
+\nSÖZLEŞMENİN KONUSU
+\nMADDE 2.
+\nİşbu Mobil Uygulama Kullanıcı Sözleşmesi (bundan böyle “Sözleşme” olarak anılacaktır.), KU bünyesinde yer alan Koç Üniversitesi Hemşirelik Fakültesi hemşirelik bölümü tarafından (Kader Tekkaş Kerman, Ayşe Beşer) ve  Mühendislik Fakültesi Bilgisayar Mühendisliği bölümü (Öznur Özkasap, Seyhan Uçar, Ahmet Can Turgut, Mehmet Selçuk Albayrak)  tarafından geliştirilen ve tüm mobil cihazlarda çalışan mobil uygulama yazılımı (bundan böyle “Uygulama” olarak anılacaktır.) üzerinden ve KU tarafından Kullanıcı’ya, Kullanıcı Bilgileri Formu’nda belirtilen bilgiler kapsamında sunulacak olan, hizmetin gerçekleştirilmesine ilişkin olarak Tarafların hak ve yükümlülüklerini düzenlemektedir.
+\nUYGULAMANIN AMACI
+\nMADDE 3.
+\nUygulama’nın geliştirilme ve Kullanıcı’ya verilecek hizmetin amacı, özellikle 15-35 yaş arası genç erkekleri etkileyen testis kanseri hakkında farkındalığı artırmak ve erkeklerin kendi kendine basit bir testis muayenesi yaparak bu kanser türünün belirtilerini erken dönemde tespit etmelerine olanak sağlamaktır.
+\nKULLANICININ SORUMLULUKLARI
+\nMADDE 4.
+\n4.1 Uygulama’nın konusunu teşkil eden testis kanseri ciddi riskleri barındıran bir hastalıktır. Uygulama aracılığıyla Kullanıcı’ya tarif edilecek olan muayene tam anlamıyla bir tıbbi muayene niteliğinde değildir; bu muayene ancak ve ancak testis kanserinin, sıradan bir kişi tarafından tespit edilebileceği kadar belirgin hale gelmiş belirtilerinin varlığı halinde Kullanıcı’da farkındalık yaratılarak kişinin üroloji uzmanı hekime danışması gerekliliğinin hatırlatılması amacıyla geliştirilmiştir. Bu nedenle Uygulama yardımıyla Kullanıcının yapacağı söz konusu muayene sonucunda testis kanserinin varlığına ya da yokluğuna dair teşhis konulmamaktadır ve KU’nun bu hususta hiçbir sorumluluğu bulunmamaktadır. Dolayısıyla Kullanıcı düzenli olarak üroloji uzmanı hekime başvurarak testis kanseri muayenesi olmalıdır.
+\n4.2 Kullanıcı’nın, 18 yaşından küçük olması halinde velisinden, hukuken kısıtlı olması halinde ise vasisinden Uygulama’yı kullanmak için izin alması gerekmektedir. Bu yazılı izin Uygulama’ya kayıt aşamasında Kullanıcı tarafından KU’ye gönderilmelidir.
+\n4.3 Kullanıcı Uygulama’yı kullanırken kendisine yöneltilen soru veya taleplere gerçek/doğru bilgilerle yanıt vereceğini, aksi halde ortaya çıkabilecek yanlış sonuçlardan, zararlardan münferiden sorumlu olacağını kabul, beyan ve taahhüt eder.
+\nUYGULAMANIN KULLANIMI
+\nMADDE 5.
+\nKullanıcı Uygulama’yı mobil cihazına yüklemesinin ve kurmasının ardından, Uygulama’ya erişim sağlamak için adı, soyadı ve Türkiye Cumhuriyeti Kimlik Numarası ile şifresini girmek zorundadır. Kullanıcı, Uygulama’dan faydalanabilmek için KU tarafından talep edilen bilgileri tam, doğru ve güncel şekilde sağlayarak Sözleşme’yi onaylaması gerektiğini kabul, beyan ve taahhüt eder. Kullanıcı, sağlayacağı bilgilerde herhangi bir değişiklik olması halinde, söz konusu bilgileri derhal güncelleyecektir. Kullanıcı, işbu maddede yazılı yükümlülüklerine aykırı davranması halinde kendisinin Uygulama’ya erişiminin kesilebileceğini kabul, beyan ve taahhüt eder.
+\nMÜCBİR SEBEPLER
+\nMADDE 6.
+\nTaraflar’ın iradesi dışında gelişen, önceden görülemeyen ve Taraflar’ın Sözleşme ile yüklendiği borçlarını yerine getirmesini engelleyici ve/veya geciktirici hallerin oluşması mücbir sebep hali olarak değerlendirilecektir. (Örneğin; deprem, su baskını, yangın gibi doğal afetler, çalışmayı ve faaliyeti engelleyen hükümet kararları, harp ve seferberlik hali, bulaşıcı hastalıklar vb.) Taraflar mücbir sebep dolayısıyla yükümlülüklerini tam veya zamanında yerine getirememekten dolayı sorumlu tutulmayacaktır. Mücbir sebep halinin 2 (iki) aydan fazla sürmesi halinde Taraflar’dan biri karşı Taraf’a yazılı olarak bildirmek suretiyle sözleşmeyi derhal feshedebilir.
+\nKİŞİSEL VERİLERİN KULLANIMI ve GİZLİLİK
+\nMADDE 7.
+\n7.1 KU, Kullanıcı’nın hiçbir kişisel bilgisini, yazılı izni olmaksızın üçüncü kişilerle paylaşmayacaktır. Ancak KU, Kullanıcı’nın Uygulama’yı kullanımı sırasında ortaya çıkan verileri istatiksel çalışmalar amacıyla işleyip kullanabilecektir. Kullanıcı 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında KU’ye kişisel verilerinin saklanması, işlenmesi ve kullanılması konularında açık rıza verdiğini, bu izin kapsamında kişisel verilerinin ne şekillerde kullanılabileceğinin bilincinde olduğunu kabul, beyan ve taahhüt eder.
+\n7.2 KU, mevzuat uyarınca yetkili makamların talebi halinde Kullanıcı’ya ait kişisel verileri bu makamlarla paylaşabilecektir.
+\nSÖZLEŞMENİN SAKLANMASI ve ERİŞİM
+\nMADDE 8.
+\nSözleşme KU tarafından 3 (üç) yıl süreyle saklanacaktır. Sözleşme metni Kullanıcı’nın talep etmesi durumunda yukarıda 1. maddede belirtilen adresine gönderilecektir.
+\nFESİH
+\nMADDE 9.
+\nTaraflar, Sözleşme’yi dilediği zaman feshedebileceği gibi KU Uygulama’yı dilediği zaman kullanımdan kaldırabilir.
+\nİMZA
+\nMADDE 9.
+\nİşbu sözleşme, 9 (dokuz) ana madde, 3 (üç) sayfa ve 1 (bir) ekten oluşup Katılımcı’nın mobil uygulama üzerinden onaylamasını müteakip başvuru yapıp, mobil uygulama tarafından onay bildiriminin kendisine ulaştırıldığı tarihte yürürlüğe girer.
+\nEK: Başvuru Formu </string>
 </resources>

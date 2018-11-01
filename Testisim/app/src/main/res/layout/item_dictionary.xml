@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/itemDictionaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#b06ed7"
+        android:textSize="17.3sp"
+        tools:text="Penis" />
+
+    <TextView
+        android:id="@+id/itemDictionaryContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#4a4a4a"
+        android:textSize="14.4sp"
+        tools:text="Penis, omurgalı ve omurgasız hayvanlarda, erkek bireylerde görünür kısında yer alan eşey üreme organı yapısıdır. Penis kelimesi Latincede kuyruk anlamına gelmektedir." />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="25dp"
+        android:background="#979797" />
+
+</LinearLayout>

@@ -24,12 +24,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15.4sp"
-            android:textColor="#9b9b9b"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="2. ADIM"
-            />
+            android:textColor="#9b9b9b"
+            android:textSize="15.4sp" />
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/testSecondStepStopSpeakingButton"
@@ -45,56 +44,58 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:gravity="center_horizontal"
-        android:textColor="#b06ed7"
         android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Kitle / yumru var mı?"
+        android:textColor="#b06ed7"
         android:textSize="23sp"
-        android:textStyle="bold"
-        android:text="Kitle / yumru var mı?" />
+        android:textStyle="bold" />
 
     <android.support.v7.widget.AppCompatImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
-        android:layout_weight="1"
         android:layout_marginBottom="16dp"
+        android:layout_weight="1"
         app:srcCompat="@drawable/test_2" />
 
     <TextView
+        android:id="@+id/testSecondStepFirstText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:gravity="center_horizontal"
         android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Her bir testisinizi iki elinizle muayene edin. Orta parmaklarınız testisin altında, başparmağınız üstünde olmak üzere parmaklarınız arasında testisi nazikçe çevirin. Testisin üzerinde kitle / yumru olup olmadığına bakın. "
         android:textColor="#529cd0"
-        android:textSize="12.4sp"
-        android:text="Her bir testisinizi iki elinizle muayene edin. Orta parmaklarınız testisin altında, başparmağınız üstünde olmak üzere parmaklarınız arasında testisi nazikçe çevirin. Testisin üzerinde kitle / yumru olup olmadığına bakın. " />
+        android:textSize="12.4sp" />
 
 
     <TextView
+        android:id="@+id/testSecondStepSecondText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
+        android:text="Mümkünse ayna karşısında durun ve testislerde herhangi bir şişme olup olmadığını kontrol edin."
         android:textColor="#111"
-        android:textSize="12.4sp"
-        android:text="Mümkünse ayna karşısında durun ve testislerde herhangi bir şişme olup olmadığını kontrol edin." />
+        android:textSize="12.4sp" />
 
     <TextView
         android:id="@+id/testSecondStepToThirdStepButton"
-        android:layout_marginBottom="20dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
         android:layout_gravity="end"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="16dp"
-        android:layout_width="120dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/corner_radius_gradient_button"
-        android:layout_height="50dp"
         android:gravity="center"
-        android:textSize="16.3sp"
+        android:text="3. ADIM &gt;"
         android:textColor="@color/white"
-        android:text="3. ADIM &gt;" />
+        android:textSize="16.3sp" />
 
 </LinearLayout>

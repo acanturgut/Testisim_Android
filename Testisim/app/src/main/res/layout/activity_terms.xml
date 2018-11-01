@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".activities.dictionary.DictionaryActivity">
-
+    android:background="@color/white"
+    tools:context=".activities.settings.TermsActivity">
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:orientation="horizontal">
 
         <android.support.v7.widget.AppCompatImageView
-            android:id="@+id/dictionaryGoBackButton"
+            android:id="@+id/termsGoBackButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -26,38 +25,28 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="TIBBİ SÖZLÜK"
+            android:text="EMEĞİ GEÇENLER"
             android:textColor="#9b9b9b"
             android:textSize="15.4sp" />
 
     </FrameLayout>
 
-    <android.support.v7.widget.SearchView
-        android:id="@+id/dictionarySearchView"
+    <View
         android:layout_width="match_parent"
-        android:visibility="gone"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:focusableInTouchMode="true"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/corner_radius_black_search"
-        android:queryHint="Tıbbi Sözlükte Ara" />
+        android:background="#eee"
+        android:layout_height="1dp"/>
 
-    <FrameLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/dictionaryRecyclerView"
+        <TextView
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:textColor="#111"
+            android:text="@string/terms"
+            android:layout_height="wrap_content" />
 
-        <ProgressBar
-            android:id="@+id/dictionaryProgressBar"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center" />
-
-    </FrameLayout>
-
+    </ScrollView>
 </LinearLayout>
