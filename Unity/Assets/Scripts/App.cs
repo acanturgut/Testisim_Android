@@ -135,7 +135,10 @@ public class App : MonoBehaviour
 
 	private void Apply()
 	{
-		Quaternion target = Quaternion.Euler(go.transform.localRotation.x + verticalSwipe, go.transform.localRotation.y + horizontalSwipe, 0);
+		float x = go.transform.localRotation.x + verticalSwipe;
+		float y = go.transform.localRotation.y + horizontalSwipe;
+
+		Quaternion target = Quaternion.Euler(x, y, 0);
 		go.transform.localRotation = Quaternion.Lerp(go.transform.localRotation, target, 0.1f);
 	}
 }
